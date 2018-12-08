@@ -173,4 +173,4 @@ client.on("message", async message => {
 // CODES - COPYRIGHT
 
 
-client.login("NTE3NzQ2OTQ1MTYzMzk1MDc0.Duxc_w.Tn_XoJuTcKKBm3m_Lc5Re95CB2k");
+client.login("NTIwODkzNjI4Nzg1MjI5ODM5.Du0flg.tc5twAABYbpbBIq-XH_NV28nzKk");
