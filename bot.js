@@ -237,4 +237,5 @@ client.on('message', async message => {
 });
 
 
-client.login("NTIwODkzNjI4Nzg1MjI5ODM5.Du0flg.tc5twAABYbpbBIq-XH_NV28nzKk");
+
+client.login("NTIxMDI5NzgwNjIwMTgxNTA1.Du2kdg.tg5Q6jxqMTnoL9Y_rMyiSM4cpqs");
