@@ -168,7 +168,6 @@ client.on("message", async message => {
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
 });
-const reply = JSON.parse(fs.readFileSync('./replys.json' , 'utf8'));
 client.on('message', async message => {
     let messageArray = message.content.split(" ");
    if(message.content.startsWith(prefix + "setReply")) {
@@ -233,9 +232,9 @@ client.on('message', async message => {
 client.on('message', async message => {
    if(message.content === reply[message.guild.id].msg) {
        message.channel.send(reply[message.guild.id].reply)
-   }
+      }
 });
 
 
 
-client.login("NTIxMDUwMDIwOTM0MzIwMTI4.Du2xPQ.MTd8usEjSgSLFXd0tbMGy8zWVn8");
+client.login("NTIxMDUwMDIwOTM0MzIwMTI4.Du64pg.Vu9ay46ZmRhQxdQlNIRXd3Yzzkc");
